@@ -6,8 +6,8 @@ export const Giffinder = () => {
     const [categories, setCategory] = useState([]);
 
     return(
-        <>
-            <h2>Gif Finder App</h2>
+        < >
+            <h2 className="animate__animated animate__flip">Gif Finder App</h2>
             <hr/>
 
             <AddCategory setCategory={setCategory} />

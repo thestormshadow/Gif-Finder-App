@@ -20,8 +20,9 @@ export const AddCategory = ({setCategory}) => {
 
     return (
         <>
-            <form onSubmit={handleSubmit}>
+            <form className="animate__animated animate__fadeInLeft" onSubmit={handleSubmit}>
                 <input type="text" value={inputValue} onChange={handleInputChange}></input>
+                <input type="submit" value="Buscar" />
             </form>
         </>
     )
